@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Paint example (javascript)</title>
+    <script defer="defer" src="./main.js"></script>
+  </head>
+  <body>
+    <ul>
+      <li></li>
+    </ul>
+    <script>
+      CSS.paintWorklet.addModule("dist/main.js");
+    </script>
+    <style>
+      li {
+        background-image: paint(checkerboard);
+      }
+    </style>
+  </body>
+</html>
