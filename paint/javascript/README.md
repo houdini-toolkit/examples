@@ -1,7 +1,3 @@
-# houdini-toolkit examples
+# houdini-toolkit Paint API example (javascript)
 
-This repository is intended for examples of the houdini-toolkit module.
-
-## List of examples:
-
-[Paint API example](https://github.com/houdini-toolkit/examples/tree/main/paint)
+To run the example, it is best, after building the project, to open the index.html file on the server instead of opening it through Explorer.
